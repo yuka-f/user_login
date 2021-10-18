@@ -11,7 +11,7 @@ const connection = mysql.createConnection({
   password: 'password',
   database: 'blog'
 });
-
+4
 // トップ画面に対応するルーティングです
 // URLと画面を表示するための処理を確認してください
 app.get('/', (req, res) => {
